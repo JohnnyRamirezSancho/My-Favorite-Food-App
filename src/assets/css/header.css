@@ -1,0 +1,27 @@
+header {
+    position: relative;
+    height: 521px;
+}
+
+h1 {
+    width: 100%;
+    height: 140px;
+    background: rgba(216, 160, 103, 0.5); 
+    line-height: 140px;
+    font-size: 96px;
+    font-family: "Mr Dafoe", serif;
+    text-align: right;
+    padding: 0 48px 0 0;
+    font-weight: normal;
+    color: #493322;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#img-cabecera {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
