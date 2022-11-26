@@ -1,7 +1,7 @@
 footer {
     max-width: 800px;
     height: 80px;
-    margin: auto;
+    margin: 0 auto 50px auto;
     background: rgba(216, 160, 103, 0.5);
     border-radius: 20px;
     border: 2px solid #493322;

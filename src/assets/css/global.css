@@ -13,7 +13,8 @@ html {
 body {
     max-width: 900px;
     min-width: 360px;
-    margin: auto;
+    margin:auto;
+    padding: 0 0 50px 0;
     color: black;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
