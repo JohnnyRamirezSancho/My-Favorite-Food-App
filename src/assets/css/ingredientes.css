@@ -1,0 +1,32 @@
+ul {
+    list-style: none;
+    margin: 5px 0 15px 0;
+}
+
+ul#ingredientes {
+    margin: 5px 0 5px 0;
+}
+
+label,
+input,
+select {
+    display: block;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 9px 0 0;
+}
+
+input[type="radio"],
+input[type="radio"] + label,
+input[type="checkbox"],
+input[type="checkbox"] + label {
+    display: inline;
+}
+
+input[type="radio"] + label::after,
+input[type="checkbox"] + label::after {
+    content: '\A';
+    white-space: pre;
+}

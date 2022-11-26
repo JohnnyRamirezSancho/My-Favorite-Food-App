@@ -1,0 +1,25 @@
+#elaboracion ol {
+    list-style: none;
+    counter-reset: contador1;
+}
+
+#elaboracion p {
+    margin: 0 0 25px 0;
+}
+
+#elaboracion li {
+    counter-increment: contador1;
+    display: grid;
+    grid-template-columns: 35px 1fr;
+}
+
+#elaboracion li::before {
+    content: counter(contador1);
+    color: white;
+    background: #493322;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+footer {
+    max-width: 800px;
+    height: 80px;
+    margin: auto;
+    background: rgba(216, 160, 103, 0.5);
+    border-radius: 20px;
+    border: 2px solid #493322;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

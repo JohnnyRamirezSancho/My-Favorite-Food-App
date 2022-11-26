@@ -19,16 +19,54 @@
         <section id="su-pizza">
             <h2>Su pizza</h2>
             <h3>Masa</h3>
+            <ul id="masas">
+                <li><input type="radio" id="masa-fina" name="tipo-masa" value="fina"><label for="masa-fina">Fina</label>
+                </li>
+                <li><input type="radio" id="masa-gruesa" name="tipo-masa" value="gruesa"><label
+                        for="masa-gruesa">Gruesa</label></li>
+                <li><input type="radio" id="masa-integral" name="tipo-masa" value="integral"><label
+                        for="masa-integral">Integral</label></li>
+            </ul>
             <h3>Ingredientes</h3>
-
+            <ul id="ingredientes">
+                <li><input type="checkbox" name="ingredientes" id="champinones" value="Champiñones"><label
+                        for="champinones">Campiñones</label></li>
+                <li><input type="checkbox" name="ingredientes" id="doble-queso" value="Doble de queso"><label
+                        for="doble-queso">Doble de queso</label></li>
+                <li><input type="checkbox" name="ingredientes" id="pepperoni" value="Pepperoni"><label
+                        for="pepperoni">Pepperoni</label></li>
+                <li><input type="checkbox" name="ingredientes" id="aceitunas" value="Aceitunas"><label
+                        for="aceitunas">Aceitunas</label></li>
+                <li><input type="checkbox" name="ingredientes" id="anchoas" value="Anchoas"><label
+                        for="anchoas">Anchoas</label></li>
+                <li><input type="checkbox" name="ingredientes" id="prosciutto" value="Prosciutto"><label
+                        for="prosciutto">Prosciutto</label></li>
+                <li><input type="checkbox" name="ingredientes" id="pollo" value="Pollo"><label for="pollo">Pollo</label>
+                </li>
+                <li><input type="checkbox" name="ingredientes" id="cebolla" value="Cebolla"><label
+                        for="cebolla">Cebolla</label></li>
+            </ul>
         </section>
         <section id="elaboracion">
+            <h2>Elaboración</h2>
+            <ol>
+                <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nihil aspernatur hic odit. Vitae, repellat earum. Voluptas, pariatur consequatur, ex delectus exercitationem sequi ea repellat molestiae, accusantium voluptate dignissimos adipisci.</p></li>
+                <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nihil aspernatur hic odit. Vitae, repellat earum. Voluptas, pariatur consequatur, ex delectus exercitationem sequi ea repellat molestiae, accusantium voluptate dignissimos adipisci.</p></li>
+                <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nihil aspernatur hic odit. Vitae, repellat earum. Voluptas, pariatur consequatur, ex delectus exercitationem sequi ea repellat molestiae, accusantium voluptate dignissimos adipisci.</p></li>
+            </ol>
 
         </section>
         <section id="tiempos">
-
+            <h2>Tiempos</h2>
+            <h3>Masa</h3>
+            <p id="tiempo-masa"></p>
+            <h3>Horneado</h3>
+            <p id="tiempo-horneado"></p>
         </section>
     </main>
+    <footer>
+        <p>&copy; Pizza Morena - 2022</p>
+    </footer>
+<script src="./assets/js/app.js"></script>
 </body>
-
 </html>
