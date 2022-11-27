@@ -25,3 +25,17 @@ h1 {
     top: 0;
     left: 0;
 }
+
+@media (max-width: 800px) {
+    header {
+        position:initial;
+    }
+    
+    h1 {
+        position: initial;
+    }
+    
+    #img-cabecera {
+        position: initial;
+    }
+}
